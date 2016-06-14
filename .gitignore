@@ -1,4 +1,6 @@
 *.py[cod]
 delicious.html
 delicious.csv
+db.csv
 .ipynb_checkpoints
+*.bak
