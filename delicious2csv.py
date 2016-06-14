@@ -51,7 +51,7 @@ class BookmarkParser(HTMLParser):
                 elif k == 'add_date':
                     bookmark['add_date'] = v
                 elif k == 'private':
-                    bookmark['private'] = "1" in v
+                    bookmark['private'] = int(v)
                 elif k == 'tags':
                     bookmark['tags'] = v
                 
